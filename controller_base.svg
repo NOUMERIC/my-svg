@@ -1,4 +1,7 @@
-
+<!-- 
+  Base SVG asset originally from Gamepad Viewer (https://gamepadviewer.com/)
+  Modified by NOUM for personal use
+-->
 <svg viewBox="0 0 415 250" height="250" width="415" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" id="Layer_1">
   <defs>
     <style>
