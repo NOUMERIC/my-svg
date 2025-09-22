@@ -10,10 +10,8 @@
       }
 
       .cls-2 {
-        fill: black;
+        fill: #1a1615;
       }
-
-
 
       .cls-15 {
         fill: #6d6b6c;
