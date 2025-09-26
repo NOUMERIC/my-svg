@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="370" height="123" viewBox="0 0 370 123">
+  <defs>
+    
+    <!-- เอฟเฟกต์เรืองแสง -->
+    <radialGradient id="gradCyan" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00f" stop-opacity="0.1"/>
+    </radialGradient>
+
+    <radialGradient id="gradMagenta" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f0f" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#606" stop-opacity="0.1"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <style>
+      .cls-1 {
+        fill: #c64ab5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+      
+      .cls-3 {
+        fill: #e5e5e5;
+      }
+      
+    </style>
+  </defs>
+  
+  <path class="cls-3" d="M37.801 18.352a15.314 15.314 0 0 0 -15.4 13.389 11.011 11.011 0 0 1 8.793 -5.413c5.419 0 9.542 6.326 12.057 8.301a18.388 18.388 0 0 0 17.268 3c6.417 -2.047 9.414 -9.192 10.064 -12.58 -3.109 4.424 -7.828 7.081 -13.664 3.95 -4.019 -2.159 -7.027 -11.031 -19.119 -10.646M21.817 38.432a15.308 15.308 0 0 0 -15.4 13.386 11.011 11.011 0 0 1 8.807 -5.413c5.419 0 9.542 6.326 12.057 8.301a18.388 18.388 0 0 0 17.268 3c6.417 -2.047 9.409 -9.192 10.064 -12.58 -3.112 4.424 -7.828 7.084 -13.664 3.95 -4.019 -2.159 -7.027 -11.046 -19.131 -10.641" stroke="#fff" stroke-width="0.5" filter="url(#glow)" transform="translate(0 -10)"/>
+
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <g id="A-2">
+        <path class="cls-2" d="m23.69,0c13.08,0,23.68,10.61,23.67,23.69,0,13.08-10.61,23.68-23.69,23.67C10.6,47.35,0,36.75,0,23.68,0,10.6,10.6,0,23.68,0h.01Z" transform="translate(313 66)" stroke="#0ff" stroke-width="3" fill="none" filter="url(#glow)"/>
+      </g>
+      <path class="cls-1" d="m32.45,38.83l-2.78-7.66h-12.13l-2.64,7.66h-5.48l11.46-30.31h5.59l11.53,30.31h-5.55Zm-8.79-25.75h-.13c-.08.74-.23,1.46-.45,2.17l-4.14,11.68h9.3l-4.17-11.68c-.2-.71-.34-1.44-.41-2.17Z" transform="translate(313 66)" />
+    </g>
+  </g>
+</svg>
